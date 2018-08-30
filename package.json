@@ -24,7 +24,7 @@
   "homepage": "https://github.com/ratmirslv/ratmirslv.github.io#readme",
   "devDependencies": {
     "autoprefixer": "^8.1.0",
-    "browser-sync": "^2.23.6",
+    "browser-sync": "^2.24.7",
     "del": "^3.0.0",
     "gulp": "^4.0.0",
     "gulp-concat": "^2.6.1",
