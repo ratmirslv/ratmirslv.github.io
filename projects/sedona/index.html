@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<title>Седона - Лучший город-adaptive</title>
+		<link rel="StyleSheet" href="css/normalize.css" type="text/css">
+		<link rel="StyleSheet" href="css/style.min.css" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<header class="main-header">
+			<div class="container">
+				<a href="index.html" class="menu-logo"><img src="img/menu-logo.png" width="138" height="70" alt="Logo"></a>
+				<nav>
+					<ul class="navigation">
+						<li><a class="menu-active" href="#">Информация</a></li>
+						<li><a href="#">Фото и видео</a></li>
+						<li><a href="#">Карта штата</a></li>
+						<li><a href="catalog.html">Гостиницы</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main class="main-body">
+			<div class="container">
+				<div class="card">
+					<img src="img/icon_main_label.png" width="458" height="352" alt="Main-label">
+				</div>
+				<div class="main-info">
+					<p class="main-description">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
+					<p class="side-description">Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
+				</div>
+				<div class="main-cause">
+					<section class="cause-text-left">
+						<div class="city-description">
+							<p class="city-description-title">Настоящий городок</p>
+							<p class="city-description-number">№1</p>
+							<p class="city-description-subtitle">Седона — не аттракцион для туристов, там течет своя жизнь</p>     
+						</div>
+						<div class="img-right">
+							<img src="img/city-sedona.jpg" width="800" height="256" alt="City-sedona">
+						</div>
+					</section>
+					<section class="main-facts">
+						<div class="col housing">
+							<p class="col-title">Жилье</p>
+							<p class="col-about">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>	
+						</div>
+						<div class="col food">
+							<p class="col-title">Еда</p>
+							<p class="col-about">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+						</div>
+						<div class="col souvenirs">
+							<p class="col-title">Сувениры</p>	
+							<p class="col-about">Не только китайского, но и местного производства!</p>
+						</div>
+					</section>
+					<section class="cause-text-right"> 
+						<div class="img-left">
+							<img src="img/Devil-Bridge.jpg" width="800" height="256" alt="Devil-Bridge">
+						</div>
+						<div class="devilbridge">
+							<p class="devilbridge-description-title">Там есть <br> мост дьявола</p>
+							<p class="devilbridge-description-number">№2</p>
+							<p class="devilbridge-description-subtitle">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+						</div> 	
+					</section>
+					<section class="side-facts">
+						<div class="col square">
+							<p class="col-title">Небольшая площадь</p>
+							<p class="col-number">№3</p>
+							<p class="col-about">Все достопримечательности находятся очень близко</p>	
+						</div>
+						<div class="col road">
+							<p class="col-title">Красивая дорога</p>
+							<p class="col-number">№4</p>
+							<p class="col-about">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+						</div>
+						<div class="col tourist">
+							<p class="col-title">Мало туристов</p>
+							<p class="col-number">№5</p>	
+							<p class="col-about">Большинство едет в Гранд Каньон и толпятся там</p>
+						</div>
+					</section>
+					<!-- Форма -->
+					<div class="offer">
+						<p class="offer-title">Заинтересовались?</p>
+						<p class="offer-info">Укажите предполагаемые даты поездки, <br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
+						<div class="offer-block">
+							<a class="offer-btn" href="#">Поиск гостиницы в Седоне</a>
+							<div class="offer-form">
+								<form method="post">
+									<div class="offer-form-dates">
+										<div class="offer-form-row">
+											<i class="icon-calendar-arrive"></i>
+											<label class="offer-form-label clearfix" for="offer-arrive-date">Дата заезда:</label>
+											<input type="text" id="offer-arrive-date" value="24 апреля 2017" required >
+										</div>
+										<div class="offer-form-row clearfix">
+											<i class="icon-calendar-departure"></i>
+											<label class="offer-form-label" for="offer-departure-date">Дата выезда:</label>
+											<input type="text" id="offer-departure-date" value="4 июля 2017" required>
+										</div>
+									</div>
+									<div class="offer-form-row clearfix">
+										<div class="offer-form-col offer-col-adult clearfix">
+											<label class="offer-form-label" for="offer-audit-adult">Взрослые:</label>
+											<input type="text" id="offer-audit-adult" value="2" required>
+											<a class="offer-controls-subtract" href="#"></a>
+											<a class="offer-controls-add" href="#"></a>
+										</div>
+										<div class="offer-form-col offer-col-junior clearfix">
+											<label class="offer-form-label" for="offer-audit-junior">Дети:</label>
+											<input type="text" id="offer-audit-junior" value="0" required>
+											<a class="offer-controls-subtract" href="#"></a>
+											<a class="offer-controls-add" href="#"></a>
+										</div>
+									</div>
+									<button class="offer-form-btn" type="submit">Найти</button>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="map">
+						<div class="map-image"></div>
+							<img src="img/map-image.jpg" width="1200" height="593" alt="Карта Седоны">
+						</div>
+					</div>
+			</div>
+		</main>
+		<footer class="main-footer">
+			<div class="container">
+				<section class="footer-hashtag">
+					<p>#Visitsedona</p>
+				</section>
+				<section class="footer-social">
+					<a class="social-btn social-btn-twitter" href="#">Twitter</a>
+					<a class="social-btn social-btn-facebook" href="#">Facebook</a>
+					<a class="social-btn social-btn-youtube" href="#">Youtube</a>
+				</section>
+				<section class="footer-copyright">
+					<span class="footer-copyright-by">Website by</span>
+					<a class="footer-copyright-log" href="https://htmlacademy.ru">HTML Academy</a>
+				</section>
+			</div>
+		</footer>
+	</body>
+</html>
