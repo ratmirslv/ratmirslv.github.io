@@ -1,0 +1,43 @@
+{
+  "name": "ratmirslv.github.io",
+  "version": "1.0.0",
+  "description": "My portfolio",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ratmirslv/ratmirslv.github.io.git"
+  },
+  "keywords": [
+    "html",
+    "css"
+  ],
+  "author": "ratmirslv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ratmirslv/ratmirslv.github.io/issues"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "IE 11"
+  ],
+  "homepage": "https://github.com/ratmirslv/ratmirslv.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^8.1.0",
+    "browser-sync": "^2.23.6",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-svgmin": "^1.2.4"
+  },
+  "dependencies": {
+    "gulp-htmlmin": "^4.0.0",
+    "normalize.css": "^8.0.0",
+    "npm": "^5.7.1"
+  }
+}
