@@ -254,6 +254,12 @@ svg {
   color: #ffffff;
   background: #2998fc;
 }
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  padding: 1.5rem 0;
+}
 
 /* FOOTER
 ================================================== */
@@ -308,6 +314,9 @@ svg {
   ================================================== */
 
   .page-footer {
+    justify-content: flex-end;
+  }
+  .page-header {
     justify-content: flex-end;
   }
 
@@ -381,6 +390,9 @@ svg {
   }
 
   .page-footer {
+    padding: 0 0 1.5rem;
+  }
+  .page-header {
     padding: 0 0 1.5rem;
   }
 }
