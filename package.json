@@ -23,8 +23,8 @@
   ],
   "homepage": "https://github.com/ratmirslv/ratmirslv.github.io#readme",
   "devDependencies": {
-    "autoprefixer": "^8.1.0",
-    "browser-sync": "^2.24.7",
+    "autoprefixer": "^8.6.5",
+    "browser-sync": "^2.26.3",
     "del": "^3.0.0",
     "gulp": "^4.0.0",
     "gulp-concat": "^2.6.1",
@@ -32,12 +32,12 @@
     "gulp-gh-pages": "^0.5.4",
     "gulp-imagemin": "^4.1.0",
     "gulp-postcss": "^7.0.1",
-    "gulp-rename": "^1.2.2",
+    "gulp-rename": "^1.4.0",
     "gulp-svgmin": "^1.2.4"
   },
   "dependencies": {
     "gulp-htmlmin": "^4.0.0",
     "normalize.css": "^8.0.0",
-    "npm": "^5.7.1"
+    "npm": "^5.10.0"
   }
 }
